@@ -1,6 +1,6 @@
 clear
 if [[ $EUID -ne 0 ]]; then
-   echo "[^] Run as root." 
+   echo -e "\033[31m [*] Opes,please run as root.\033[0m"
    exit 1
 fi
 echo "PARADOXIA Installer"
