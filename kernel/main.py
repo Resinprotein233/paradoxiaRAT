@@ -933,4 +933,4 @@ def Console():
                         except Exception as procError:
                             print("["+Style.BRIGHT + Fore.LIGHTBLUE_EX + "*" + Style.RESET_ALL + "] Error : " + str(procError))
         except KeyboardInterrupt:
-            print("[X] Interrupt, Type exit to Exit.")
+            print('\033[1;032m[X] Interrupt, Type exit to Exit.\033[0m')
